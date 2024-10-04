@@ -63,6 +63,13 @@ build CMakeFiles/mirom.dir/App.cpp.o: CXX_COMPILER__mirom_unscanned_Debug /Users
   OBJECT_DIR = CMakeFiles/mirom.dir
   OBJECT_FILE_DIR = CMakeFiles/mirom.dir
 
+build CMakeFiles/mirom.dir/Mirror.cpp.o: CXX_COMPILER__mirom_unscanned_Debug /Users/macbook/trees_prack/mirom/Mirror.cpp || cmake_object_order_depends_target_mirom
+  DEP_FILE = CMakeFiles/mirom.dir/Mirror.cpp.o.d
+  FLAGS = -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  INCLUDES = -I/usr/local/include -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/mirom.dir
+  OBJECT_FILE_DIR = CMakeFiles/mirom.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target mirom
@@ -71,7 +78,7 @@ build CMakeFiles/mirom.dir/App.cpp.o: CXX_COMPILER__mirom_unscanned_Debug /Users
 #############################################
 # Link the executable mirom
 
-build mirom: CXX_EXECUTABLE_LINKER__mirom_Debug CMakeFiles/mirom.dir/main.cpp.o CMakeFiles/mirom.dir/App.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib /opt/homebrew/lib/libsfml-audio.2.6.1.dylib /opt/homebrew/lib/libsfml-network.2.6.1.dylib /opt/homebrew/lib/libsfml-window.2.6.1.dylib /opt/homebrew/lib/libsfml-system.2.6.1.dylib
+build mirom: CXX_EXECUTABLE_LINKER__mirom_Debug CMakeFiles/mirom.dir/main.cpp.o CMakeFiles/mirom.dir/App.cpp.o CMakeFiles/mirom.dir/Mirror.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib /opt/homebrew/lib/libsfml-audio.2.6.1.dylib /opt/homebrew/lib/libsfml-network.2.6.1.dylib /opt/homebrew/lib/libsfml-window.2.6.1.dylib /opt/homebrew/lib/libsfml-system.2.6.1.dylib
   FLAGS = -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.6.1.dylib  /opt/homebrew/lib/libsfml-audio.2.6.1.dylib  /opt/homebrew/lib/libsfml-network.2.6.1.dylib  /opt/homebrew/lib/libsfml-window.2.6.1.dylib  /opt/homebrew/lib/libsfml-system.2.6.1.dylib
   OBJECT_DIR = CMakeFiles/mirom.dir

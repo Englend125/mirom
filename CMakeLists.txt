@@ -7,6 +7,8 @@ set(SOURCE_FILES main.cpp
         App.h
         App.cpp
         Point.h
+        Mirror.cpp
+        Mirror.h
 )
 add_executable(mirom ${SOURCE_FILES}
         main.cpp)
