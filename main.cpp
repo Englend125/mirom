@@ -1,6 +1,7 @@
 #include <iostream>
+#include <SFML/Graphics.hpp>
 
 int32_t main() {
-    //вызываем App
+    sf::Window window;
     return 0;
 }
