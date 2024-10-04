@@ -6,6 +6,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 set(SOURCE_FILES main.cpp
         App.h
         App.cpp
+        Point.h
 )
 add_executable(mirom ${SOURCE_FILES}
         main.cpp)
