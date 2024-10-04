@@ -1,7 +1,8 @@
 #include <iostream>
-#include <SFML/Graphics.hpp>
+#include "App.h"
 
 int32_t main() {
-    sf::Window window;
+    App app(500, 500, "miror");
+    app.render();
     return 0;
 }
