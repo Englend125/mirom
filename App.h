@@ -12,7 +12,9 @@ public:
         std::swap(name, name_);
         window_ = new sf::RenderWindow(sf::VideoMode(width_, height_), name_);
     }
+
     bool render();
+
 private:
     int width_, height_;
     std::string name_;
