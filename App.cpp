@@ -18,8 +18,8 @@ bool App::render() {
                 window_->close();
         }
         if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-            if (kostil == 0) {
-                kostil = 0;
+            if (true) {
+//                kostil = 0;
                 if (vec_start.x == -1) {
                     vec_start = Point<double>(m_pozition.x, m_pozition.y);
                     vec_end = Point<double>(-1, -1);
