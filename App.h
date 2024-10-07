@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Window/Keyboard.hpp>
+#include "Point.h"
 
 class App {
 public:
